@@ -63,11 +63,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="get-involved.html">Get Involved</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'media' %}">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'blog' %}">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'getinvolved' %}">Get Involved</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
         </ul>
       </div>
     </div>
